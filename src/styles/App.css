@@ -1,0 +1,259 @@
+.App {
+  position: relative;
+  width: 100vw;
+  background: #C9D6FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.Navigation > Home {
+  color: #000000;
+}
+
+.Home {
+  width: 100vw;
+  height: 150vh;
+}
+
+.Navigation {
+  width: 100vw;
+}
+
+
+.Contact {
+  height: 100vh;
+}
+
+.Bookings {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Comfortaa', cursive,
+    sans-serif;
+  height: 60vw;
+}
+
+.Carousel {
+  flex: 1;
+  display: flex;
+  font-size: 3vw;
+  width: 100%;
+  font-family: 'Comfortaa', cursive,
+    sans-serif;
+  text-shadow: 4px 4px 4px #000;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.SignIn {
+  height: 50vw;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Comfortaa', cursive,
+    sans-serif;
+
+
+}
+
+
+.MediaComponents {
+  flex: 10;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.MediaComponent {
+  flex: 1;
+  text-align: center;
+  color: black;
+  padding: 5vh 5vw 5vh 5vw;
+}
+
+.MediaComponentLink {
+  font-size: 3vw;
+}
+
+.MediaComponent>h2 {
+  font-size: 1.5vw;
+  font-family: 'Comfortaa', cursive,
+    sans-serif;
+}
+
+.MediaComponent>p {
+  font-size: 1vw;
+  font-family: 'Comfortaa', cursive,
+    sans-serif;
+}
+
+.Footer {
+  flex: 0;
+  display: flex;
+  background: linear-gradient(-90deg, #112442, #000000);
+  color: white;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.Contact{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  font-family: 'Comfortaa', cursive,
+    sans-serif;
+}
+
+@media only screen and (max-width: 1100px) {
+  .App {
+    position: absolute;
+    width: 100vw;
+    height: 350vh;
+    display: flex;
+  }
+
+
+
+  .Home {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .TitleBanner {
+    text-align: center;
+  }
+
+  .TitleBanner>h1 {
+    font-size: 5vw;
+  }
+
+  .TitleBanner>p {
+    font-size: 3vw;
+  }
+
+  .MediaComponents {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .MediaComponentLink {
+    font-size: 8vw;
+  }
+
+  .MediaComponent>h2 {
+    font-size: 6vw;
+  }
+
+  .MediaComponent>p {
+    font-size: 4vw;
+  }
+
+  .Carousel{
+    max-width: 100%;
+    height: auto;
+    flex: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Contact{
+    max-width: 100%;
+    height: auto;
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  .App {
+    position: absolute;
+    width: 100vw;
+    height: 320vh;
+    display: flex;
+  }
+
+  .Home {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .TitleBanner {
+    text-align: center;
+  }
+
+  .TitleBanner>h1 {
+    font-size: 7vw;
+  }
+
+  .TitleBanner>p {
+    font-size: 5vw;
+  }
+
+  .MediaComponents {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 1vw;
+  }
+
+  .Carousel{
+    max-width: 100%;
+    height: auto;
+    flex: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Contact{
+    height: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+  }
+
+
+  .SignIn {
+    height: 50vw;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
+  }
+
+  .MediaComponentLink {
+    font-size: 6vw;
+  }
+
+  .MediaComponent>h2 {
+    font-size: 6vw;
+  }
+
+  .MediaComponent>p {
+    font-size: 4vw;
+  }
+
+  .Footer {
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
