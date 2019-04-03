@@ -21,7 +21,7 @@ class BookingForm extends Component {
 
       }}>
       <h3>Register a booking</h3>
-      <form action="http://localhost:3001/addBooking" method="post">
+      <form action="https://ec2-18-130-144-65.eu-west-2.compute.amazonaws.com:3001/addBooking" method="post">
         <FormGroup>
           <Label for="Date">Date</Label>
           <Input type="date" name="date" id="Date" placeholder="Date"/>

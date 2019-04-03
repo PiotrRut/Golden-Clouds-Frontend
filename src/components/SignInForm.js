@@ -59,7 +59,7 @@ class SignInForm extends Component {
         width: '25%'
       }}>
       <h3>Sign In</h3>
-      <form action="http://localhost:3001/login" method="post">
+      <form action="https://ec2-18-130-144-65.eu-west-2.compute.amazonaws.com:3001/login" method="post">
         <div className="form-group">
           <label>E-mail:
           </label>

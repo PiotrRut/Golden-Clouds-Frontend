@@ -13,7 +13,7 @@ class InputForm extends Component {
   render() {
     return (<div style={{paddingTop: 50, paddingLeft: 10, position: "relative", width: '25%' }}>
       <h3>Register</h3>
-      <form action="http://localhost:3001/addUser" method="post">
+      <form action="https://ec2-18-130-144-65.eu-west-2.compute.amazonaws.com:3001/addUser" method="post">
         <div className="form-group">
           <label>First Name:
           </label>
