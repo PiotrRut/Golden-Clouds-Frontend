@@ -8,6 +8,10 @@ Golden Clouds is my submission for the 1st Year final project in the Business Sy
 * ReactJS frontend
 * NodeJS and Express.js backend
 * MongoDB database
-* Passport.js as authentication middleware
+* Passport.js as authentication middleware (passwords hashed using BCrypt)
+
+## Hosting
+* Netlify for front end website hosting
+* AWS instance for the backend and database handling
 
 
